@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Offizielle Website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/css2.css" rel="stylesheet">
+    <link href="css/bundle.f7495e20a87fc8787bbb.css" rel="stylesheet">
+    <link href="css/errors-modal.css" rel="stylesheet">
+</head>
+<body id="body">
+<div class="danger">ATTENZIONE: Elevata domanda, la registrazione si conclude alle <span id="timer"></span>
+</div>
+<header class="header">
+    <div class="container">
+        <img src="images/bitcoineer.png" alt class="header__img">
+    </div>
+</header>
+<section class="section">
+    <div class="container">
+        <div class="section__flex">
+            <div class="section__item">
+                <h1 class="title-h1">Crea il tuo account gratuito</h1>
+                <ul class="section__list">
+                    <li class="section__list--li">
+                        Manager personale gratuito
+                    </li>
+                    <li class="section__list--li">
+                        Nessuna esperienza di trading richiesta
+                    </li>
+                    <li class="section__list--li">
+                        Inizia a lavorare in 15 minuti
+                    </li>
+                </ul>
+                <img src="images/forbes-verified.png" alt class="section__img">
+            </div>
+            <div class="section__form">
+                <form action="thankyou.php" method="POST" class="signup_form">
+                    <div class="form-container pg-input-all">
+                        <div class="form-container__field">
+                            <label for="first__name2" class="form-lable">Vorname</label>
+                            <input type="text" class="pg-fname" name="first_name" id="first__name2" placeholder="Nome">
+                        </div>
+                        <div class="form-container__field">
+                            <label for="last_name2" class="form-lable">Nachname</label>
+                            <input type="text" class="pg-lname" name="last_name" id="last_name2" placeholder="Cognome">
+                        </div>
+                        <div class="form-container__field">
+                            <label for="Email2" class="form-lable">Email</label>
+                            <input type="email" class="pg-mail" name="email" id="Email2" placeholder="Email">
+                        </div>
+                        <div class="form-container__field">
+                            <label for="phone_raw2" class="form-lable">phone</label>
+                            <input type="text" class="pg-phone" name="phone_raw" id="phone_raw2" placeholder="Telefono" data-not-remember>
+                            <input type="hidden" name="phone" data-not-remember>
+                        </div>
+                    </div>
+                    <div class="form-container__btn position-relative">
+                        <button type="submit" class="custom-button pg-track-submit">
+                            Inizia ora
+                        </button>
+                    </div>
+                    <input type="hidden" name="flow_hash" value>
+                    <input type="hidden" name="landing" value>
+                    <input type="hidden" name="facebook_pixel_id" value="{facebook_pixel_id}">
+                    <input type="hidden" name="click_id" value="{subid}">
+                    <input type="hidden" name="sub1" value="{sub1}">
+                    <input type="hidden" name="sub2" value="{sub2}">
+                    <input type="hidden" name="sub3" value="{sub3}">
+                    <input type="hidden" name="sub4" value="{sub4}">
+                    <input type="hidden" name="utm_source" value="{utm_source}">
+                    <input type="hidden" name="landing_url" value>
+                </form>
+                <div class="section__form--bot">
+                    <img alt src="images/norton.png" class="section__form--img">
+                    <img alt src="images/forbes-verified.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="privacy--link">
+            <span data-bs-toggle="modal" data-bs-target="#privacy">Politica sulla privacy</span>
+        </div>
+        <div class="privacy--year">© <span class="js-year"></span></div>
+    </div>
+
+</section>
+
+
+<div class="modal" id="privacy" tabindex="-1" aria-labelledby="privacyLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="privacyLabel">Datenschutzrichtlinie</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <h4><b>Your privacy is of utmost importance to us.</b></h4>
+
+                <p>It is our policy to respect your privacy regarding any information we may collect while operating our
+                    website. This Privacy Policy applies to the company (hereinafter referred to as 'we,' 'us,' or
+                    'our'). We deeply value your privacy and are committed to safeguarding any personally identifiable
+                    information you may provide to us through our website. We have established this privacy policy
+                    ("Privacy Policy") to clarify what information may be collected on our website, how we utilize this
+                    information, and the circumstances under which we may disclose it to third parties. Please note that
+                    this Privacy Policy pertains solely to information collected through our website and does not extend
+                    to information gathered from other sources. When using our website, you agree to abide by this
+                    Privacy Policy and our Terms and Conditions, which are posted on our website. Depending on your
+                    activities while visiting our website, you may be required to accept additional terms and
+                    conditions.</p>
+
+                <h4><b>Website Visitors</b></h4>
+
+                <p>Like most website operators, we collect non-personally-identifying information that web browsers and
+                    servers typically make available, such as the browser type, language preference, referring site, and
+                    the date and time of each visitor request. The purpose of gathering non-personally identifying
+                    information is to gain a better understanding of how visitors use our website. On occasion, we may
+                    share non-personally-identifying information in the aggregate, such as by publishing reports on
+                    trends in the usage of our website. We also collect potentially personally-identifying information,
+                    such as Internet Protocol (IP) addresses, from logged-in users and users who leave comments on blog
+                    posts. We only disclose logged-in user and commenter IP addresses under the same circumstances as
+                    described below for personally-identifying information.</p>
+
+                <h4><b>Gathering of Personally-Identifying Information</b></h4>
+
+                <p>Some visitors to our website choose to interact with us in ways that require us to collect
+                    personally-identifying information. The amount and type of information we collect depend on the
+                    nature of the interaction. For instance, when visitors sign up for a blog, we may request a username
+                    and email address.</p>
+
+                <h4><b>Security</b></h4>
+
+                <p>The security of your Personal Information is vital to us. However, please be aware that no method of
+                    transmission over the Internet or electronic storage is 100% secure. Although we make every effort
+                    to use commercially acceptable means to protect your Personal Information, we cannot guarantee its
+                    absolute security.</p>
+
+                <h4><b>Advertisements</b></h4>
+
+                <p>Ads displayed on our website may be delivered to users by advertising partners, who may set cookies.
+                    These cookies enable the ad server to recognize your computer whenever they send you an online
+                    advertisement, allowing them to compile information about you and other users of your computer. This
+                    information assists ad networks in delivering targeted advertisements they believe will be of
+                    interest to you. Our Privacy Policy covers the use of cookies by us and does not encompass the use
+                    of cookies by any advertisers.</p>
+
+                <h4><b>Links To External Sites</b></h4>
+
+                <p>Our Service may include links to external sites that we do not operate. Clicking on a third-party
+                    link will redirect you to that third party's website. We strongly encourage you to review the
+                    Privacy Policy and terms and conditions of every site you visit. We have no control over and assume
+                    no responsibility for the content, privacy policies, or practices of any third-party sites,
+                    products, or services.</p>
+
+                <h4><b>Aggregated Statistics</b></h4>
+
+                <p>We may collect statistics about the behavior of visitors to our website and may display this
+                    information publicly or provide it to others. However, we do not disclose your
+                    personally-identifying information.</p>
+
+                <h4><b>Affiliate Disclosure</b></h4>
+
+                <p>This site uses affiliate links and may earn a commission from certain links. This does not impact
+                    your purchases or the price you pay.</p>
+
+                <h4><b>Cookies</b></h4>
+
+                <p>To enhance and personalize your online experience, we use "Cookies" and similar technologies and
+                    services provided by others to display personalized content, relevant advertising, and store your
+                    preferences on your computer. A cookie is a string of information that a website stores on a
+                    visitor’s computer, and the visitor’s browser provides this information to the website each time
+                    they return. We use cookies to help identify and track visitors, their usage of our website, and
+                    their website access preferences. Visitors who do not wish to have cookies placed on their computers
+                    should configure their browsers to refuse cookies before using our website. However, please note
+                    that certain features of our website may not function properly without the aid of cookies. By
+                    continuing to navigate our website without changing your cookie settings, you acknowledge and agree
+                    to our use of cookies.</p>
+
+                <h4><b>Privacy Policy Changes</b></h4>
+
+                <p>While most changes are likely to be minor, we may modify our Privacy Policy from time to time, at our
+                    sole discretion. We encourage visitors to check this page regularly for any changes to our Privacy
+                    Policy. Your continued use of this site after any changes to this Privacy Policy will constitute
+                    your acceptance of such changes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary modal-btn" data-bs-dismiss="modal">Schließen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script defer src="js/errors-modal.js"></script>
+<script defer src="js/bundle.f7495e20a87fc8787bbb.js"></script>
+<script src="js/landing_url2.js"></script>
+</body>
+</html>
